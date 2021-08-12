@@ -43,12 +43,11 @@ sudo usermod --append --groups docker $USER
 
 #change /etc/sysctl.conf
 sudo nano /etc/sysctl.conf
-"add this text to bottom"
-"""
+"add this text below to the bottom of the file"
+
 # Maximum number of memory map areas a process (Elasticsearch) may have
 vm.max_map_count=262144
 
-"""
 
 #install invenio (use both just to be safe)
 
